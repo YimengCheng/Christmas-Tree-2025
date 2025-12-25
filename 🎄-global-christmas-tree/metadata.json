@@ -1,0 +1,7 @@
+{
+  "name": "🎄 Global Christmas Tree",
+  "description": "A real-time 3D interactive Christmas tree where users can decorate, leave audio messages, hang photos, and use AI to generate wishes.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
