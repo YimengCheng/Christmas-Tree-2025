@@ -9,8 +9,7 @@ export default defineConfig({
   },
   root: './',
   build: {
-    // 关键修改：去掉 ../ 
-    // 这样打包后的文件夹会生成在 🎄-global-christmas-tree/dist
+    // 关键修复：去掉 ../ 确保生成在子目录内
     outDir: 'dist',
     emptyOutDir: true,
   },
